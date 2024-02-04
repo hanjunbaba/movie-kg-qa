@@ -91,7 +91,7 @@ jupyter运行create_kg.ipynb,运行前需要将你的neo4j的链接和用户信�
 运行以下命令：
 
 ```python  
->> cd Path to folder
+>> cd ‘当前文件夹地址，具体根据你当前movie-kg-qa的文件地址’
 >> streamlit run chat_ui.py [ARGUMENTS]
 ```
 ## 3.问题类型
