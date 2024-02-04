@@ -1,7 +1,7 @@
 import re
 import jieba
 #分词器
-jieba.load_userdict(r"C:\Users\50738\Desktop\mvkg\data\word_dic\all.txt")
+jieba.load_userdict(r"./data/word_dic/all.txt")
 
 class question_from_user():#问题类
     def __init__(self, ques):
